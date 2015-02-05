@@ -1,0 +1,2 @@
+Execute the nbclassify.py as follows to print class predictions to a file:
+$ python3 nbclassify.py <class>.nb <class_test>.txt -> <class>.out
