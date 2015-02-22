@@ -62,8 +62,30 @@ a. SVM
 
 b. MegaM 
 ---------------    
-             - Models commited;
-             - <class>.megam.out pending
+              1. SPAM Classification :
+           
+                          a. Class = HAM
+                                       Precision =  98.90 %
+                                       Recall = 99.30 %
+                                       F-Score = 99.10 %
+            
+                          b. Class = SPAM
+                                       Precision = 98.05 %
+                                       Recall = 96.96 %
+                                       F-Score = 97.50 %
+
+
+             2. Sentiment Classification
+           
+                          a. Class = POS
+                                       Precision =  85.81 %
+                                       Recall = 88.19 %
+                                       F-Score = 86.98 %
+            
+                          b. Class = NEG
+                                       Precision = 87.97 %
+                                       Recall = 85.55 %
+                                       F-Score = 86.75 %
 
 
 ***************************************************************************************************************
@@ -71,4 +93,6 @@ b. MegaM
 
 Part 3
 --------
-    this
+  Question 3 ->
+   Ans:  The Precision,Recall and F-Score reduce by an extent when only 10% of the training set is used as the the classifier
+         encounters lesser examples to learn.
